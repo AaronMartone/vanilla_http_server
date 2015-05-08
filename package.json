@@ -1,0 +1,23 @@
+{
+  "name": "vanilla_http_server",
+  "version": "0.1.0",
+  "description": "Runs a vanilla http server and provides tests",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/vanilla-http-server-test.js",
+    "start": "nodemon index.js"
+  },
+  "author": "Aaron R. Martone <am@aaronmartone.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "chai-http": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {}
+}
